@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <title>Learn More</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div class="loading">
+        <div id="portfolio">
+            <div class="contenier" id="ajay1">
+                <h1 class="sub-title">My Repositories</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus!</p>
+                <div class="work-list"  > 
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio2.png" >
+                        <div class="layer">
+                            <h3>Game Website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur elit. Voluptatem magnam laborum esse quis?</p>
+                            <a target="_blank"  href="https://itsajay10k.github.io/Rock-Paper-Scissors/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio3.png" >
+                        <div class="layer">
+                            <h3>Love Card</h3>
+                            <p>Lorem ipsum dolor sit ametg elit. Sed voluptatibus consectetur porro deserunt?</p>
+                            <a target="_blank"  href="https://itsajay10k.github.io/love/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Chocolate </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a eaque cupiditate distinctio.</p>
+                            <a target="_blank"  href="https://creationav.github.io/choco/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Jai Shree Ram</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a eaque cupiditate distinctio.</p>
+                            <a target="_blank"  href="https://creationav.github.io/ram/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Propose Card</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a eaque cupiditate distinctio.</p>
+                            <a target="_blank"  href="https://creationav.github.io/propose/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work" data-aos="zoom-in">
+                        <img src="Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Game Web Apk</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a eaque cupiditate distinctio.</p>
+                            <a target="_blank"  href="https://itsajay10k.github.io/Tic-Tac-Toe-/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Website Developed By <span style="color: rgb(224, 44, 44);">Ajay Vishwakarma</span></p>
+        </div>
+    </div>
+    <script>
+        var preloader = document.getElementById("Loading");
+        function loader(){
+          preloader.style.display = 'none';
+        }
+      </script>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+  </script>
+  
+<!-- aos data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+    });
+  </script>
+  <script>
+    var sidmenu = document.getElementById("sidmenu");
+    function openmenu(){
+        sidmenu.style.right ="0";
+    }
+    function closemenu(){
+        sidmenu.style.right ="-200px";
+    }
+  </script>
+</body>
+</html>
